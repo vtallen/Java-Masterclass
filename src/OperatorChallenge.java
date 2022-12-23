@@ -1,17 +1,18 @@
 public class OperatorChallenge {
     public static void main(String[] args) {
-        double valueOne = 20.00;
-        double valueTwo = 80.00;
+        double valueOne = 20.00d;
+        double valueTwo = 80.00d;
 
-        double result = (valueOne + valueTwo) * 100.0;
+        double result = (valueOne + valueTwo) * 100.0d;
+        System.out.println("result=" + result);
 
-        double remainder = result % 40.00;
+        double remainder = result % 40.00d;
+        System.out.println("remainder=" + remainder);
 
-        boolean noRemainder = (remainder == 0.00) ? true : false;
+        boolean isNoRemainder = remainder == 0.00d ? true : false;
+        System.out.println("isNoRemainder=" + isNoRemainder);
 
-        System.out.println("value of noRemainder boolean: " + noRemainder);
-
-        if (!noRemainder) {
+        if (!isNoRemainder) {
             System.out.println("Got some remainder");
         }
     }
