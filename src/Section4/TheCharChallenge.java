@@ -1,3 +1,5 @@
+package Section4;
+
 public class TheCharChallenge {
     public static void main(String[] args) {
         char mySimpleChar = '?';
