@@ -1,12 +1,10 @@
-package Section4;
-
 public class Hello {
     public static boolean isMain() {
         return false;
     }
 
     public static void main(String[] args) {
-        System.out.println("Section4.Hello, Tim");
+        System.out.println("Hello, Tim");
 
         boolean isAlien = true;
 

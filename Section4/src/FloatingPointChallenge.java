@@ -1,5 +1,3 @@
-package Section4;
-
 import java.util.Scanner;
 public class FloatingPointChallenge {
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package Section4;
-
 public class OperatorChallenge {
     public static void main(String[] args) {
         double valueOne = 20.00d;

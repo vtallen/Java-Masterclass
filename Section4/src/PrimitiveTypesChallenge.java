@@ -1,5 +1,3 @@
-package Section4;
-
 public class PrimitiveTypesChallenge {
     public static void main(String[] args) {
        byte byteVar = 10;
