@@ -1,12 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        displayHighScorePosition("VvoltageA", 1);
+        int highScorePosition = calculateHighScorePosition(1500);
+        displayHighScorePosition("a", highScorePosition);
 
-        System.out.println(calculateHighScorePosition(1500));
-        System.out.println(calculateHighScorePosition(1000));
-        System.out.println(calculateHighScorePosition(500));
-        System.out.println(calculateHighScorePosition(100));
-        System.out.println(calculateHighScorePosition(25));
+        highScorePosition = calculateHighScorePosition(1000);
+        displayHighScorePosition("b", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(500);
+        displayHighScorePosition("c", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(100);
+        displayHighScorePosition("d", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(25);
+        displayHighScorePosition("e", highScorePosition);
 
     }
 
