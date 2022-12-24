@@ -3,16 +3,16 @@ public class Main {
         int highScorePosition = calculateHighScorePosition(1500);
         displayHighScorePosition("a", highScorePosition);
 
-        highScorePosition = calculateHighScorePosition(1000);
+        highScorePosition = calculateHighScorePosition(499);
         displayHighScorePosition("b", highScorePosition);
 
-        highScorePosition = calculateHighScorePosition(500);
+        highScorePosition = calculateHighScorePosition(99);
         displayHighScorePosition("c", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(100);
         displayHighScorePosition("d", highScorePosition);
 
-        highScorePosition = calculateHighScorePosition(25);
+        highScorePosition = calculateHighScorePosition(-1000);
         displayHighScorePosition("e", highScorePosition);
 
     }
@@ -22,15 +22,16 @@ public class Main {
     }
 
     public static int calculateHighScorePosition(int score) {
+        int position = 4;
 
         if (score >= 100 && score < 500) {
-            return 3;
+            position = 3;
         } else if (score >= 500 && score < 1000) {
-            return 2;
+            position = 2;
         } else if (score >= 1000) {
-            return 1;
+            position = 1;
         }
 
-        return 4;
+        return position;
     }
 }
