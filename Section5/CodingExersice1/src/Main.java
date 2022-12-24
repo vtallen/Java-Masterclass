@@ -1,3 +1,10 @@
+/*
+***********************************************************************
+This program contains the method checkNumber which takes an int input
+and prints to the console if the number is zero, positive, or negative.
+ **********************************************************************
+*/
+
 public class Main {
     public static void main(String[] args) {
 
