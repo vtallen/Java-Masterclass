@@ -17,11 +17,11 @@ public class Main {
     public static int calculateHighScorePosition(int score) {
 
         if (score >= 100 && score < 500) {
-            return 1;
+            return 3;
         } else if (score >= 500 && score < 1000) {
             return 2;
         } else if (score >= 1000) {
-            return 3;
+            return 1;
         }
 
         return 4;
