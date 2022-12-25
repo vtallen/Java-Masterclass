@@ -5,7 +5,7 @@ and prints to the console if the number is zero, positive, or negative.
  **********************************************************************
 */
 
-public class Main {
+public class CodingExercise1 {
     public static void main(String[] args) {
 
         checkNumber(0);
