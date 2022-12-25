@@ -1,3 +1,9 @@
+/*
+* *****************************************************
+* This program has a method that converts an int value representing
+* kilobytes and converts it into megabytes and remaining kilobytes
+* *****************************************************
+ */
 public class MegaBytesConverter {
     public static void main(String[] args) {
 
