@@ -10,8 +10,8 @@ public class GreatestCommonDivisor {
             return -1;
         }
 
+        //Take the smaller value between 1 and 2 and iterate till we hit that
         for (int i = 1; i <= (num1 > num2 ? num2 : num1); i++) {
-
             if (num1 % i == 0 && num2 % i == 0) {
                 gcd = i;
             }
