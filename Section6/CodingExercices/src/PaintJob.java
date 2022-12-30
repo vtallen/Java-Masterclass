@@ -21,7 +21,6 @@ public class PaintJob {
         }
 
         double areaOfWall = width * height;
-        //double numBucketsToCoverWall = areaOfWall / areaPerBucket;
         double areaExtraBucketsCover = extraBuckets * areaPerBucket;
         double areaNotCovered = areaOfWall - areaExtraBucketsCover;
 
