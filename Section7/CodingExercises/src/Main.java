@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Testing SimpleCalculator.java
+        /*//Testing SimpleCalculator.java
         System.out.println("Testing SimpleCalculator.java\n");
         SimpleCalculator calculator = new SimpleCalculator();
         calculator.setFirstNumber(5.0);
@@ -27,6 +27,10 @@ public class Main {
         System.out.println("fullName= " + person.getFullName());
         System.out.println("teen= " + person.isTeen());
         person.setLastName("Smith");    // lastName is set to Smith
-        System.out.println("fullName= " + person.getFullName());
+        System.out.println("fullName= " + person.getFullName());*/
+
+        Wall wall = new Wall(-1.125, 1.0);
+
+        System.out.println(wall);
     }
 }
