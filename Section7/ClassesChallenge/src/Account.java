@@ -6,6 +6,7 @@ public class Account {
     private String customerPhoneNumber;
 
     public Account() {
+        this("56789", 2.50, "Default Name", "default address", "Default phone");
         System.out.println("Empty constructor called");
     }
 
@@ -16,9 +17,16 @@ public class Account {
         this.customerName = customerName;
         this.customerEmail = customerEmail;
         this.customerPhoneNumber = customerPhoneNumber;
-
-
     }
+
+
+    public Account(String customerName, String customerEmail, String customerPhoneNumber) {
+        this("99999", 100.55, customerName, customerEmail, customerPhoneNumber);
+//        this.customerName = customerName;
+//        this.customerEmail = customerEmail;
+//        this.customerPhoneNumber = customerPhoneNumber;
+    }
+
     //Setters
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
