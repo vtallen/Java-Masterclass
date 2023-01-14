@@ -15,8 +15,8 @@ public class Main {
         FootballPlayer timmy = new FootballPlayer("timmy");
 
         Team<FootballPlayer> team2 = new Team<>("Team 2");
-        team2.addPlayer(tim);
-        team2.addPlayer(bob);
+        team2.addPlayer(jeff);
+        team2.addPlayer(timmy);
 
         League<FootballPlayer> footballPlayerLeague = new League<>("NFL");
         footballPlayerLeague.addTeam(team1);
