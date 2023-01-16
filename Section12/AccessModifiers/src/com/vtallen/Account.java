@@ -5,11 +5,10 @@ import java.util.ArrayList;
 public class Account {
     private String accountName;
     private int balance = 0;
-    private ArrayList<Integer> transactions;
+    private ArrayList<Integer> transactions = new ArrayList<>();
 
     public Account(String accountName) {
         this.accountName = accountName;
-        transactions = new ArrayList<>();
     }
 
     public int getBalance() {
